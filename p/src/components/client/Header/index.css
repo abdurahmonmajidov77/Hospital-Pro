@@ -1,0 +1,64 @@
+.divc{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.divc input{
+    padding: 9px 15px;
+    margin: 10px 20px;
+}
+.divc button{
+    background-color: blue;
+    padding: 9px 15px;
+    margin: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.Form-box{
+    text-align: center;
+        width: 1000px;
+        height: 300px;
+        border: 1px solid gray;
+        margin: 0 auto;
+        border-radius: 10px;
+          padding-top: 35px;
+    }
+
+    .fish{  
+        width: 780px;
+        margin: 7px auto;
+
+        padding: 10px;
+    }
+.lila{
+    margin-bottom: 85px;
+}
+    .fisha{
+        width: 804px;
+        margin: 7px auto;
+        padding: 10px;
+        background-color: #34e065;
+        border-radius: 4px;
+        transition: .7s;
+        border:none;
+    }
+    .fisha:hover{
+        background-color: #fff;
+        border:1px solid #34e065    ;
+        color:#34e065;
+    }
+
+    .records{
+        background-color: #00ff4850 ;
+        border-radius: 6px;
+        
+    }
+
+    .rec_ali{
+        padding: 20px 10px;
+    }
+
+    
+    

@@ -12,10 +12,7 @@ import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import call from "../../../../assets/client/call.json";
 import { Link, NavLink } from "react-router-dom";
-
-
-
-
+import './styles.css'
 
 function MenuModal({setOpen, open }) {
   const { t, i18n } = useTranslation();

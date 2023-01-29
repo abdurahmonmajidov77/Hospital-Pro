@@ -7,8 +7,13 @@ padding: 3% 0 5%;
 export const Cards = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
+  /* .lila div{
+    width: .1%;
+    padding: 0 3%;
+    margin: 10%;
+  } */
 `;
 
 export const Card = styled.div`

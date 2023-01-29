@@ -1,14 +1,28 @@
-
+.news_ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.news_li{
+    width: 25%;
+    margin: 1vw;
+    padding: 0.5vw;
+    background-color: #34e065;
+    color: white;
+    border: none;
+    transition: .7s;
+}
+.news_li:hover{
+    box-shadow: 0 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
 
 .alih3{
     color: black;
 }
 
 .alibox{
-    padding:20px;
-    border-radius: 15px;
-    background-color:aquamarine;
-    margin: 0 auto; 
+
     
 }
 .aliimg{

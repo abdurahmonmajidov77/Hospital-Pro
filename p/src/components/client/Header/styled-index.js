@@ -10,11 +10,15 @@ export const Wrapper = styled.div`
   }
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  @media screen and (max-width: 643px) {
+    justify-content: space-between;
+    padding: 3%;
+  }
 `;
 
 export const Infors = styled.div`
-  width: 75%;
+  width: 80%;
   margin: 0 !important;
   @media screen and (max-width: 900px) {
     width: 75%;

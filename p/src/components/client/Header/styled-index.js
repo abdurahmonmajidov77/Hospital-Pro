@@ -82,7 +82,7 @@ export const Nav = styled.div`
       justify-content: space-between;
 
       button {
-        margin-right: 15%;
+        // margin-right: 15%;
       }
     }
     .b {
@@ -90,13 +90,16 @@ export const Nav = styled.div`
       background-color: transparent;
     }
     .teleg {
-      padding: 10px 20px;
-      border: 1px solid #34e065;
-      background-color: #34e065;
+      padding: 1vw 1.8vw;
+      border: .1vw solid #34e065;
+      background-color: white;
       border-radius: 10px;
       font-weight: bold;
       font-size: 1vw;
-      color: white;
+      color: #34e065;
+      i {
+        margin-right: .5vw;
+      }
     }
   }
   a {

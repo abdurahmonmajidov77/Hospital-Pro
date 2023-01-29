@@ -80,7 +80,7 @@ function Header() {
             </li>
             <li>
               <button className="b">
-                <a href="https://telegram.me/doniyor_shifo_bot" className="teleg">Tahlil Natijalari</a>
+                <a href="https://telegram.me/doniyor_shifo_bot" className="teleg"><i className="fa-solid fa-file"></i> {t("Header.16")}</a>
               </button>
             </li>
             <li className="buttons">

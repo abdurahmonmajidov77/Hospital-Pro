@@ -33,7 +33,7 @@ export default function Buttons() {
                 <span className="pointer">{t("Header.3")} </span>
                 <i className="bx bxs-chevron-down"></i>
                 <div className="dwdwBoxinOpen">
-                  <div class="dropdown-content dwdwd">
+                  <div class="dropdown-content dwdwd dropiton">
                   <a className="linkaa" href="#">
                     <Link to="/specialists">{t("Header.10")}</Link>
                   </a>

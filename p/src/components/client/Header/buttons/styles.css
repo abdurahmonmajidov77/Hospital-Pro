@@ -10,7 +10,7 @@
   animation-duration: 1s;
   transform: translateY(0%);
   color: white;
-  background-color: #00cb39;
+  background-color: #34e065;
   border-bottom-right-radius: 1vw;
   border-bottom-left-radius: 1vw;
   padding: 10%;
@@ -19,11 +19,14 @@
   flex-direction: column;
   text-align: center;
   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
-  left: -20%;
+  left: -10%;
   position: absolute;
   display: none;
   z-index: 5;
-  width: 150px;
+  width: 120px;
+}
+.dropiton{
+  left: -40%;
 }
 .dwdwd:nth-child(1){
   animation-name: dropdown;
@@ -32,12 +35,12 @@
   animation-name: dropdown1;
 }
 .dwdwd a{
-  width: 150px;
+  width: 120px;
   padding: 2%;
 }
 @keyframes dropdown {
   1% {
-    transform: translateY(40%);
+    transform: translateY(-35%);
   }
   100% {
     transform: translateY(0%);
@@ -45,7 +48,7 @@
 }
 @keyframes dropdown1 {
   1% {
-    transform: translateY(40%);
+    transform: translateY(-35%);
   }
   100% {
     transform: translateY(0%);
@@ -76,17 +79,13 @@
   position: relative;
 }
 .dwdwd a{
-  color: green;
-  transition: .7s;
+  color: white;
 }
 .Qasdad{
   width: 100%;
   padding-top: 37%;
   z-index: 16;
   position: absolute;
-}
-.dwdwd a:hover{
-  color: white;
 }
 .dwdwBoxinOpen{
   width: 100%;

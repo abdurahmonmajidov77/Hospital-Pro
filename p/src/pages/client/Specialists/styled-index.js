@@ -9,11 +9,9 @@ export const Cards = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  /* .lila div{
-    width: .1%;
-    padding: 0 3%;
-    margin: 10%;
-  } */
+  .lila{
+    margin: 0 1.5vw;
+  }
 `;
 
 export const Card = styled.div`

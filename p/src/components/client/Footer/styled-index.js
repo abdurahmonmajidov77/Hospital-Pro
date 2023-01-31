@@ -21,7 +21,8 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-
+  border-top: .3vw solid #34e065;
+  padding: 3%;
   @media screen and (max-width: 370px) {
     display: flex;
     flex-direction: column;

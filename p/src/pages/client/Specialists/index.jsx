@@ -28,14 +28,14 @@ function Specialists() {
             <a href="#" id="fli" className="btn-flip" data-back="loremm" data-front="Ingalatsiya"></a>
           </div>
         </div>
+      </Cards>
+      <Cards data-aos="zoom-out">
         <div className="lila">
           <div onClick={HendelClick}>
 
             <a href="#" id="fli" className="btn-flip" data-back="loremm" data-front="Ingalatsiya"></a>
           </div>
         </div>
-      </Cards>
-      <Cards data-aos="zoom-out">
         <div className="lila">
           <div onClick={HendelClick}>
 
